@@ -3,7 +3,7 @@ Used to get statistics of which instructions your Game Boy code uses.
 Instructions:
  - In Emulicious, open the Trace Logger from the debugger
  - Set Write Trace Log to File on
- - Uncheck all the boxes at the bottom, but put in `@PC & $ff` as the "Additional Expression"
+ - Uncheck all the boxes at the bottom, but put in `@PC` as the "Additional Expression"
  - Profile your game with the Start Tracing and Stop Tracing button
  - Run the script and pass your logged file as an output
  - Profit?
